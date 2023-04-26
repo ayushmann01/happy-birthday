@@ -293,6 +293,8 @@ const animationTimeline = () => {
       "+=1"
     );
 
+    document.getElementById('momo-video')?.style.display = "block";
+
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
